@@ -1,0 +1,18 @@
+# env files
+.env
+.env.*
+
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# local datasets (NOT committed)
+data/local/
