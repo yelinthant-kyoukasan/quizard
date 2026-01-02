@@ -1,0 +1,4 @@
+subject_id,name,code,icon,color,order_index,is_active
+1,Mathematics,MATH,ruler,#7C3AED,1,true
+2,English,ENG,book,#22C55E,2,true
+3,Science,SCI,atom,#F97316,3,true

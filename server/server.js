@@ -1,13 +1,22 @@
-const express = require("express");
-const cookieParser = require("cookie-parser");
-const cors = require("cors");
-const helmet = require("helmet");
-const morgan = require("morgan");
-const rateLimit = require("express-rate-limit");
 require("dotenv").config();
+const express = require("express");
+const cors = require("cors");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const helmet = require("helmet");
+const authRoutes = require("./routes/authRoutes");
+const subjectsRoutes = require("./routes/subjectsRoutes");
+const lessonsRoutes = require("./routes/lessonsRoutes");
+const questionsRoutes = require("./routes/questionsRoutes");
+
+const connectDB = require("./config/db");
 
 const app = express();
 
+// Connect DB
+connectDB();
+
+// Middlewares
 app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
@@ -18,8 +27,16 @@ app.use(cors({
     credentials: true
 }));
 
-app.use("/api/", rateLimit({ windowMs: 15 * 60 * 1000, max: 300 }));
+app.get("/api/health", (req, res) => {
+    res.json({ status: "ok" });
+});
 
-app.get("/api/health", (req, res) => res.json({ ok: true }));
+app.use("/api/auth", authRoutes);
+app.use("/api/subjects", subjectsRoutes);
+app.use("/api/lessons", lessonsRoutes);
+app.use("/api/questions", questionsRoutes);
 
-app.listen(5000, () => console.log("Server running on http://localhost:5000"));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`🚀 Server running on http://localhost:${PORT}`);
+});

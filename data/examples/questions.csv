@@ -1,0 +1,54 @@
+question_id,lesson_id,subject_id,type,question_text,option_a,option_b,option_c,option_d,correct_answer,explanation,difficulty,xp,order_index,is_active
+1,1,1,mcq,What is x if x + 3 = 5?,1,2,3,4,B,Subtract 3 from both sides to find x.,easy,10,1,true
+2,1,1,mcq,Which symbol represents a variable?,3,x,5,7,B,A variable represents an unknown value.,easy,10,2,true
+3,1,1,mcq,Solve: x − 4 = 6,8,9,10,11,C,Add 4 to both sides to isolate x.,easy,10,3,true
+4,1,1,mcq,What does an equation show?,A value,A question,Balance of expressions,A graph,C,An equation shows two expressions are equal.,easy,10,4,true
+5,1,1,mcq,Which is an equation?,x + 3,5 + 2 = 7,4y,3z,B,An equation must have an equals sign.,easy,10,5,true
+
+6,2,1,mcq,Solve: 2x = 10,3,4,5,6,C,Divide both sides by 2.,medium,10,1,true
+7,2,1,mcq,What is the first step to solve 3x + 2 = 11?,Add 2,Subtract 2,Multiply 3,Divide 11,B,Subtract 2 from both sides first.,medium,10,2,true
+8,2,1,mcq,Solve: x/4 = 3,7,12,4,1,B,Multiply both sides by 4.,medium,10,3,true
+9,2,1,mcq,Which equation has solution x = 4?,x + 1 = 6,2x = 8,x − 3 = 0,x/2 = 1,B,Substitute x = 4 to check.,medium,10,4,true
+10,2,1,mcq,What does solving an equation mean?,Guessing values,Finding x,Drawing graph,Writing formula,B,Solving means finding the unknown value.,medium,10,5,true
+
+11,3,1,mcq,How many variables are in simultaneous equations?,1,2,3,4,B,Simultaneous equations involve two variables.,medium,10,1,true
+12,3,1,mcq,Which method eliminates a variable?,Substitution,Guessing,Estimation,Plotting,A,Substitution replaces one variable with another.,medium,10,2,true
+13,3,1,mcq,What is the goal when solving simultaneous equations?,Find both variables,Find one number,Draw graph,Memorise formula,A,Both variable values must be found.,medium,10,3,true
+14,3,1,mcq,Which is a pair of simultaneous equations?,x+2=5,x+y=7 and y=3,x=5,3+4=7,B,They must share the same variables.,medium,10,4,true
+15,3,1,mcq,Which method uses graphs?,Substitution,Elimination,Graphing,Division,C,Graphing shows where lines intersect.,medium,10,5,true
+
+16,4,2,mcq,Which is a noun?,Run,Happy,Book,Quickly,C,A noun names a person or a place or a thing.,easy,10,1,true
+17,4,2,mcq,Which is a verb?,Chair,Blue,Jump,Soft,C,A verb shows an action.,easy,10,2,true
+18,4,2,mcq,Which is an adjective?,Run,Happiness,Tall,Speak,C,An adjective describes a noun.,easy,10,3,true
+19,4,2,mcq,Which word is a pronoun?,Alex,She,Book,School,B,A pronoun replaces a noun.,easy,10,4,true
+20,4,2,mcq,Which part of speech joins words?,Noun,Verb,Conjunction,Adverb,C,Conjunctions join words or clauses.,easy,10,5,true
+
+21,5,2,mcq,What is a sentence?,A word,A group of words,A complete idea,A paragraph,C,A sentence expresses a complete thought.,medium,10,1,true
+22,5,2,mcq,Which sentence is correct?,He go school,He goes school,He goes to school,He going school,C,Correct grammar requires subject-verb agreement.,medium,10,2,true
+23,5,2,mcq,What must a sentence have?,Verb only,Noun only,Subject and verb,Punctuation only,C,A sentence needs both subject and verb.,medium,10,3,true
+24,5,2,mcq,Which is a question sentence?,I like apples.,Close the door.,What is your name?,She runs fast.,C,Questions ask for information.,medium,10,4,true
+25,5,2,mcq,What punctuation ends a statement?,Question mark,Comma,Full stop,Exclamation mark,C,Statements end with a full stop.,medium,10,5,true
+
+26,6,2,mcq,What is comprehension?,Reading speed,Understanding text,Writing skill,Spelling,B,Comprehension means understanding what is read.,medium,10,1,true
+27,6,2,mcq,What should you do first when reading a passage?,Skip it,Read questions,Scan title,Guess answers,C,The title gives context.,medium,10,2,true
+28,6,2,mcq,What helps find the main idea?,Details,Examples,Topic sentence,Dictionary,C,The topic sentence shows the main idea.,medium,10,3,true
+29,6,2,mcq,Why reread a passage?,Waste time,Memorise words,Improve understanding,Skip questions,C,Rereading clarifies meaning.,medium,10,4,true
+30,6,2,mcq,What does context help with?,Spelling,Pronunciation,Word meaning,Writing,C,Context helps infer meaning.,medium,10,5,true
+
+31,7,3,mcq,Which is a living thing?,Rock,Water,Tree,Chair,C,Living things grow and reproduce.,easy,10,1,true
+32,7,3,mcq,Which is needed for life?,Plastic,Air,Metal,Glass,B,Living things need air.,easy,10,2,true
+33,7,3,mcq,What do all living things do?,Stay still,Grow,Shine,Freeze,B,Growth is a key life process.,easy,10,3,true
+34,7,3,mcq,Which is NOT living?,Dog,Plant,Fungus,Stone,D,Stones do not show life processes.,easy,10,4,true
+35,7,3,mcq,Living things respond to?,Light,Nothing,Noise,Stimuli,D,Stimuli cause responses.,easy,10,5,true
+
+36,8,3,mcq,What is the basic unit of life?,Atom,Cell,Tissue,Organ,B,Cells are the building blocks of life.,medium,10,1,true
+37,8,3,mcq,Which is found in plant cells only?,Nucleus,Cell wall,Mitochondria,Cytoplasm,B,Cell walls are unique to plants.,medium,10,2,true
+38,8,3,mcq,What do systems do?,Work alone,Work together,Stop growth,Replace cells,B,Systems work together in organisms.,medium,10,3,true
+39,8,3,mcq,Which is a system?,Heart,Brain,Circulatory system,Lung,C,A system consists of multiple organs.,medium,10,4,true
+40,8,3,mcq,Cells combine to form?,Atoms,Tissues,Systems,Organisms,B,Cells form tissues.,medium,10,5,true
+
+41,9,3,mcq,Which is a state of matter?,Energy,Gas,Force,Heat,B,Gas is one state of matter.,medium,10,1,true
+42,9,3,mcq,Which has fixed shape?,Liquid,Gas,Solid,Plasma,C,Solids have fixed shape.,medium,10,2,true
+43,9,3,mcq,Which can flow?,Solid,Liquid,Stone,Ice,B,Liquids can flow.,medium,10,3,true
+44,9,3,mcq,What happens when ice melts?,Freezes,Boils,Changes state,Disappears,C,Melting changes solid to liquid.,medium,10,4,true
+45,9,3,mcq,Which property describes mass?,Colour,Weight,Volume,Texture,B,Mass relates to weight.,medium,10,5,true

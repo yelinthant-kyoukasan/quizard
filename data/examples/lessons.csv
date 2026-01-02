@@ -1,0 +1,12 @@
+lesson_id,subject_id,title,description,difficulty,order_index,xp_reward,question_count,estimated_minutes,is_active
+1,1,Algebra Basics,Understanding variables and simple equations,easy,1,50,5,10,true
+2,1,Linear Equations,Solve single-variable linear equations,medium,2,60,5,12,true
+3,1,Simultaneous Equations,Solve equations with two variables,medium,3,70,5,15,true
+
+4,2,Grammar Basics,Parts of speech and basic grammar rules,easy,1,40,5,10,true
+5,2,Sentence Structure,Forming clear and correct sentences,medium,2,50,5,12,true
+6,2,Reading Comprehension,Understanding short passages,medium,3,60,5,15,true
+
+7,3,Living Things,Basic characteristics of living organisms,easy,1,50,5,10,true
+8,3,Cells and Systems,Introduction to cells and body systems,medium,2,60,5,12,true
+9,3,Matter and Materials,States of matter and basic properties,medium,3,70,5,15,true
