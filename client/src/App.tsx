@@ -10,7 +10,7 @@ import ProfilePage from "./pages/ProfilePage";
 import RanksPage from "./pages/RanksPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import FriendsPage from "./pages/FriendsPage";
-import BattlesPage from "./pages/battlesPage";
+import BattlesPage from "./pages/BattlesPage";
 import BattlePlayPage from "./pages/BattlePlayPage";
 import BattleFinishedPage from "./pages/BattleFinishedPage";
 import TournamentPlayPage from "./pages/TournamentPlayPage";

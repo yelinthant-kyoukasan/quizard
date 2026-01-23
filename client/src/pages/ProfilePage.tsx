@@ -186,7 +186,6 @@ export default function ProfilePage() {
 function StatCard({
     label,
     value,
-    icon,
 }: {
     label: string
     value: string | number
