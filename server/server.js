@@ -47,7 +47,7 @@ app.use(cors({
     credentials: true // keep true only if you use cookies; ok even if you don't
 }));
 
-app.options("*", cors());
+app.options(/.*/, cors());
 app.get("/api/health", (req, res) => {
     res.json({ status: "ok" });
 });
