@@ -35,7 +35,8 @@ const userSchema = new mongoose.Schema(
         lives: { type: Number, default: 5 },
 
         // O-Level countdown card
-        examDate: { type: Date, default: null }
+        examDate: { type: Date, default: null },
+        friends: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     },
     { timestamps: true }
 );

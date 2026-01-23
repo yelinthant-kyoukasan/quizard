@@ -8,6 +8,12 @@ const authRoutes = require("./routes/authRoutes");
 const subjectsRoutes = require("./routes/subjectsRoutes");
 const lessonsRoutes = require("./routes/lessonsRoutes");
 const questionsRoutes = require("./routes/questionsRoutes");
+const quizRoutes = require("./routes/quizRoutes")
+const progressRoutes = require("./routes/progressRoutes")
+const leaderboardRoutes = require("./routes/leaderboardRoutes")
+const friendsRoutes = require("./routes/friendsRoutes")
+const battlesRoutes = require("./routes/battlesRoutes")
+const tournamentsRoutes = require("./routes/tournamentsRoutes")
 
 const connectDB = require("./config/db");
 
@@ -21,6 +27,11 @@ app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(cookieParser());
+app.use(cors({
+    origin: "http://localhost:5173",
+    credentials: true
+}));
+
 
 app.use(cors({
     origin: "http://localhost:5173",
@@ -31,10 +42,16 @@ app.get("/api/health", (req, res) => {
     res.json({ status: "ok" });
 });
 
+app.use("/api/friends", friendsRoutes)
 app.use("/api/auth", authRoutes);
 app.use("/api/subjects", subjectsRoutes);
 app.use("/api/lessons", lessonsRoutes);
 app.use("/api/questions", questionsRoutes);
+app.use("/api/quiz", quizRoutes)
+app.use("/api/progress", progressRoutes)
+app.use("/api/leaderboard", leaderboardRoutes)
+app.use("/api/battles", battlesRoutes)
+app.use("/api/tournaments", tournamentsRoutes)
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

@@ -1,0 +1,136 @@
+question_id,lesson_id,subject_id,type,question_text,option_a,option_b,option_c,option_d,correct_answer,explanation,difficulty,xp,order_index,is_active
+1,1,1,mcq,What is x if x + 3 = 5?,1,2,3,4,B,Subtract 3 from both sides to find x.,easy,10,1,1
+2,1,1,mcq,Which symbol represents a variable?,3,x,5,7,B,A variable represents an unknown value.,easy,10,2,1
+3,1,1,mcq,Solve: x − 4 = 6,8,9,10,11,C,Add 4 to both sides to isolate x.,easy,10,3,1
+4,1,1,mcq,What does an equation show?,A value,A question,Balance of expressions,A graph,C,An equation shows two expressions are equal.,easy,10,4,1
+5,1,1,mcq,Which is an equation?,x + 3,5 + 2 = 7,4y,3z,B,An equation must have an equals sign.,easy,10,5,1
+6,2,1,mcq,Solve: 2x = 10,3,4,5,6,C,Divide both sides by 2.,medium,10,1,1
+7,2,1,mcq,What is the first step to solve 3x + 2 = 11?,Add 2,Subtract 2,Multiply 3,Divide 11,B,Subtract 2 from both sides first.,medium,10,2,1
+8,2,1,mcq,Solve: x/4 = 3,7,12,4,1,B,Multiply both sides by 4.,medium,10,3,1
+9,2,1,mcq,Which equation has solution x = 4?,x + 1 = 6,2x = 8,x − 3 = 0,x/2 = 1,B,Substitute x = 4 to check.,medium,10,4,1
+10,2,1,mcq,What does solving an equation mean?,Guessing values,Finding x,Drawing graph,Writing formula,B,Solving means finding the unknown value.,medium,10,5,1
+11,3,1,mcq,How many variables are in simultaneous equations?,1,2,3,4,B,Simultaneous equations involve two variables.,medium,10,1,1
+12,3,1,mcq,Which method eliminates a variable?,Substitution,Guessing,Estimation,Plotting,A,Substitution replaces one variable with another.,medium,10,2,1
+13,3,1,mcq,What is the goal when solving simultaneous equations?,Find both variables,Find one number,Draw graph,Memorise formula,A,Both variable values must be found.,medium,10,3,1
+14,3,1,mcq,Which is a pair of simultaneous equations?,x+2=5,x+y=7 and y=3,x=5,3+4=7,B,They must share the same variables.,medium,10,4,1
+15,3,1,mcq,Which method uses graphs?,Substitution,Elimination,Graphing,Division,C,Graphing shows where lines intersect.,medium,10,5,1
+16,4,2,mcq,Which is a noun?,Run,Happy,Book,Quickly,C,A noun names a person or a place or a thing.,easy,10,1,1
+17,4,2,mcq,Which is a verb?,Chair,Blue,Jump,Soft,C,A verb shows an action.,easy,10,2,1
+18,4,2,mcq,Which is an adjective?,Run,Happiness,Tall,Speak,C,An adjective describes a noun.,easy,10,3,1
+19,4,2,mcq,Which word is a pronoun?,Alex,She,Book,School,B,A pronoun replaces a noun.,easy,10,4,1
+20,4,2,mcq,Which part of speech joins words?,Noun,Verb,Conjunction,Adverb,C,Conjunctions join words or clauses.,easy,10,5,1
+21,5,2,mcq,What is a sentence?,A word,A group of words,A complete idea,A paragraph,C,A sentence expresses a complete thought.,medium,10,1,1
+22,5,2,mcq,Which sentence is correct?,He go school,He goes school,He goes to school,He going school,C,Correct grammar requires subject-verb agreement.,medium,10,2,1
+23,5,2,mcq,What must a sentence have?,Verb only,Noun only,Subject and verb,Punctuation only,C,A sentence needs both subject and verb.,medium,10,3,1
+24,5,2,mcq,Which is a question sentence?,I like apples.,Close the door.,What is your name?,She runs fast.,C,Questions ask for information.,medium,10,4,1
+25,5,2,mcq,What punctuation ends a statement?,Question mark,Comma,Full stop,Exclamation mark,C,Statements end with a full stop.,medium,10,5,1
+26,6,2,mcq,What is comprehension?,Reading speed,Understanding text,Writing skill,Spelling,B,Comprehension means understanding what is read.,medium,10,1,1
+27,6,2,mcq,What should you do first when reading a passage?,Skip it,Read questions,Scan title,Guess answers,C,The title gives context.,medium,10,2,1
+28,6,2,mcq,What helps find the main idea?,Details,Examples,Topic sentence,Dictionary,C,The topic sentence shows the main idea.,medium,10,3,1
+29,6,2,mcq,Why reread a passage?,Waste time,Memorise words,Improve understanding,Skip questions,C,Rereading clarifies meaning.,medium,10,4,1
+30,6,2,mcq,What does context help with?,Spelling,Pronunciation,Word meaning,Writing,C,Context helps infer meaning.,medium,10,5,1
+31,7,3,mcq,Which is a living thing?,Rock,Water,Tree,Chair,C,Living things grow and reproduce.,easy,10,1,1
+32,7,3,mcq,Which is needed for life?,Plastic,Air,Metal,Glass,B,Living things need air.,easy,10,2,1
+33,7,3,mcq,What do all living things do?,Stay still,Grow,Shine,Freeze,B,Growth is a key life process.,easy,10,3,1
+34,7,3,mcq,Which is NOT living?,Dog,Plant,Fungus,Stone,D,Stones do not show life processes.,easy,10,4,1
+35,7,3,mcq,Living things respond to?,Light,Nothing,Noise,Stimuli,D,Stimuli cause responses.,easy,10,5,1
+36,8,3,mcq,What is the basic unit of life?,Atom,Cell,Tissue,Organ,B,Cells are the building blocks of life.,medium,10,1,1
+37,8,3,mcq,Which is found in plant cells only?,Nucleus,Cell wall,Mitochondria,Cytoplasm,B,Cell walls are unique to plants.,medium,10,2,1
+38,8,3,mcq,What do systems do?,Work alone,Work together,Stop growth,Replace cells,B,Systems work together in organisms.,medium,10,3,1
+39,8,3,mcq,Which is a system?,Heart,Brain,Circulatory system,Lung,C,A system consists of multiple organs.,medium,10,4,1
+40,8,3,mcq,Cells combine to form?,Atoms,Tissues,Systems,Organisms,B,Cells form tissues.,medium,10,5,1
+41,9,3,mcq,Which is a state of matter?,Energy,Gas,Force,Heat,B,Gas is one state of matter.,medium,10,1,1
+42,9,3,mcq,Which has fixed shape?,Liquid,Gas,Solid,Plasma,C,Solids have fixed shape.,medium,10,2,1
+43,9,3,mcq,Which can flow?,Solid,Liquid,Stone,Ice,B,Liquids can flow.,medium,10,3,1
+44,9,3,mcq,What happens when ice melts?,Freezes,Boils,Changes state,Disappears,C,Melting changes solid to liquid.,medium,10,4,1
+45,9,3,mcq,Which property describes mass?,Colour,Weight,Volume,Texture,B,Mass relates to weight.,medium,10,5,1
+46,1,1,mcq,Solve: 3x + 5 = 20,5,3,15,10,A,Subtract 5 then divide by 3.,medium,15,46,1
+47,1,1,mcq,What is the value of x in 2x − 7 = 9?,8,1,16,4,D,Add 7 then divide by 2.,medium,15,47,1
+48,1,1,mcq,Which equation represents 'five more than twice a number is 15'?,2x + 5 = 15,5x + 2 = 15,2x − 5 = 15,x + 10 = 15,A,Translate words into algebra.,medium,15,48,1
+49,1,1,mcq,Solve: x/4 = 6,24,10,2,12,A,Multiply both sides by 4.,medium,15,49,1
+50,1,1,mcq,"If 7x = 42, what is x?",6,7,5,49,A,Divide both sides by 7.,medium,15,50,1
+51,1,1,mcq,Solve: 9 + x = 25,16,34,14,9,A,Subtract 9 from both sides.,medium,15,51,1
+52,1,1,mcq,Which is the solution of 5x = 30?,6,25,150,5,A,Divide by 5.,medium,15,52,1
+53,1,1,mcq,Solve: 2(x + 3) = 14,4,5,7,8,A,Expand then solve.,medium,15,53,1
+54,1,1,mcq,What is x if x − 11 = 0?,11,-11,0,1,A,Add 11 to both sides.,medium,15,54,1
+55,1,1,mcq,Solve: 4x + 1 = 17,4,3,5,16,A,Subtract 1 then divide by 4.,medium,15,55,1
+56,2,1,mcq,Solve: 3x + 5 = 20,5,3,15,10,A,Subtract 5 then divide by 3.,medium,15,56,1
+57,2,1,mcq,What is the value of x in 2x − 7 = 9?,8,1,16,4,D,Add 7 then divide by 2.,medium,15,57,1
+58,2,1,mcq,Which equation represents 'five more than twice a number is 15'?,2x + 5 = 15,5x + 2 = 15,2x − 5 = 15,x + 10 = 15,A,Translate words into algebra.,medium,15,58,1
+59,2,1,mcq,Solve: x/4 = 6,24,10,2,12,A,Multiply both sides by 4.,medium,15,59,1
+60,2,1,mcq,"If 7x = 42, what is x?",6,7,5,49,A,Divide both sides by 7.,medium,15,60,1
+61,2,1,mcq,Solve: 9 + x = 25,16,34,14,9,A,Subtract 9 from both sides.,medium,15,61,1
+62,2,1,mcq,Which is the solution of 5x = 30?,6,25,150,5,A,Divide by 5.,medium,15,62,1
+63,2,1,mcq,Solve: 2(x + 3) = 14,4,5,7,8,A,Expand then solve.,medium,15,63,1
+64,2,1,mcq,What is x if x − 11 = 0?,11,-11,0,1,A,Add 11 to both sides.,medium,15,64,1
+65,2,1,mcq,Solve: 4x + 1 = 17,4,3,5,16,A,Subtract 1 then divide by 4.,medium,15,65,1
+66,3,1,mcq,Solve: 3x + 5 = 20,5,3,15,10,A,Subtract 5 then divide by 3.,medium,15,66,1
+67,3,1,mcq,What is the value of x in 2x − 7 = 9?,8,1,16,4,D,Add 7 then divide by 2.,medium,15,67,1
+68,3,1,mcq,Which equation represents 'five more than twice a number is 15'?,2x + 5 = 15,5x + 2 = 15,2x − 5 = 15,x + 10 = 15,A,Translate words into algebra.,medium,15,68,1
+69,3,1,mcq,Solve: x/4 = 6,24,10,2,12,A,Multiply both sides by 4.,medium,15,69,1
+70,3,1,mcq,"If 7x = 42, what is x?",6,7,5,49,A,Divide both sides by 7.,medium,15,70,1
+71,3,1,mcq,Solve: 9 + x = 25,16,34,14,9,A,Subtract 9 from both sides.,medium,15,71,1
+72,3,1,mcq,Which is the solution of 5x = 30?,6,25,150,5,A,Divide by 5.,medium,15,72,1
+73,3,1,mcq,Solve: 2(x + 3) = 14,4,5,7,8,A,Expand then solve.,medium,15,73,1
+74,3,1,mcq,What is x if x − 11 = 0?,11,-11,0,1,A,Add 11 to both sides.,medium,15,74,1
+75,3,1,mcq,Solve: 4x + 1 = 17,4,3,5,16,A,Subtract 1 then divide by 4.,medium,15,75,1
+76,4,2,mcq,Which word is a noun?,happiness,run,quickly,blue,A,A noun names a thing or idea.,medium,15,76,1
+77,4,2,mcq,Which sentence is grammatically correct?,She go to school.,She goes to school.,She going school.,She gone school.,B,Third-person singular uses 'goes'.,medium,15,77,1
+78,4,2,mcq,Which word is an adjective?,beautiful,run,happily,eat,A,Adjectives describe nouns.,medium,15,78,1
+79,4,2,mcq,Identify the verb in the sentence: 'They play football.',They,play,football,the,B,The verb shows action.,medium,15,79,1
+80,4,2,mcq,Which sentence uses correct punctuation?,What time is it.,What time is it?,What time is it!,"What time is it,",B,Questions end with a question mark.,medium,15,80,1
+81,4,2,mcq,Which word is an adverb?,slowly,slow,slowness,slowed,A,Adverbs describe verbs.,medium,15,81,1
+82,4,2,mcq,Choose the correct plural form of 'child'.,childs,childes,children,childrens,C,Irregular plural.,medium,15,82,1
+83,4,2,mcq,Which is a complete sentence?,Running in the park.,After the rain.,She reads books.,Because I said so.,C,A complete sentence has subject and verb.,medium,15,83,1
+84,4,2,mcq,Which word best completes: 'He ___ finished his homework.',have,has,having,had,B,Singular subject uses 'has'.,medium,15,84,1
+85,4,2,mcq,Which sentence is in past tense?,She walks home.,She is walking home.,She walked home.,She walks home daily.,C,Past tense uses '-ed' or irregular form.,medium,15,85,1
+86,5,2,mcq,Which word is a noun?,happiness,run,quickly,blue,A,A noun names a thing or idea.,medium,15,86,1
+87,5,2,mcq,Which sentence is grammatically correct?,She go to school.,She goes to school.,She going school.,She gone school.,B,Third-person singular uses 'goes'.,medium,15,87,1
+88,5,2,mcq,Which word is an adjective?,beautiful,run,happily,eat,A,Adjectives describe nouns.,medium,15,88,1
+89,5,2,mcq,Identify the verb in the sentence: 'They play football.',They,play,football,the,B,The verb shows action.,medium,15,89,1
+90,5,2,mcq,Which sentence uses correct punctuation?,What time is it.,What time is it?,What time is it!,"What time is it,",B,Questions end with a question mark.,medium,15,90,1
+91,5,2,mcq,Which word is an adverb?,slowly,slow,slowness,slowed,A,Adverbs describe verbs.,medium,15,91,1
+92,5,2,mcq,Choose the correct plural form of 'child'.,childs,childes,children,childrens,C,Irregular plural.,medium,15,92,1
+93,5,2,mcq,Which is a complete sentence?,Running in the park.,After the rain.,She reads books.,Because I said so.,C,A complete sentence has subject and verb.,medium,15,93,1
+94,5,2,mcq,Which word best completes: 'He ___ finished his homework.',have,has,having,had,B,Singular subject uses 'has'.,medium,15,94,1
+95,5,2,mcq,Which sentence is in past tense?,She walks home.,She is walking home.,She walked home.,She walks home daily.,C,Past tense uses '-ed' or irregular form.,medium,15,95,1
+96,6,2,mcq,Which word is a noun?,happiness,run,quickly,blue,A,A noun names a thing or idea.,medium,15,96,1
+97,6,2,mcq,Which sentence is grammatically correct?,She go to school.,She goes to school.,She going school.,She gone school.,B,Third-person singular uses 'goes'.,medium,15,97,1
+98,6,2,mcq,Which word is an adjective?,beautiful,run,happily,eat,A,Adjectives describe nouns.,medium,15,98,1
+99,6,2,mcq,Identify the verb in the sentence: 'They play football.',They,play,football,the,B,The verb shows action.,medium,15,99,1
+100,6,2,mcq,Which sentence uses correct punctuation?,What time is it.,What time is it?,What time is it!,"What time is it,",B,Questions end with a question mark.,medium,15,100,1
+101,6,2,mcq,Which word is an adverb?,slowly,slow,slowness,slowed,A,Adverbs describe verbs.,medium,15,101,1
+102,6,2,mcq,Choose the correct plural form of 'child'.,childs,childes,children,childrens,C,Irregular plural.,medium,15,102,1
+103,6,2,mcq,Which is a complete sentence?,Running in the park.,After the rain.,She reads books.,Because I said so.,C,A complete sentence has subject and verb.,medium,15,103,1
+104,6,2,mcq,Which word best completes: 'He ___ finished his homework.',have,has,having,had,B,Singular subject uses 'has'.,medium,15,104,1
+105,6,2,mcq,Which sentence is in past tense?,She walks home.,She is walking home.,She walked home.,She walks home daily.,C,Past tense uses '-ed' or irregular form.,medium,15,105,1
+106,7,3,mcq,Which is a living thing?,Rock,Tree,Chair,Water,B,Plants are living things.,medium,15,106,1
+107,7,3,mcq,Which process allows plants to make food?,Respiration,Photosynthesis,Digestion,Evaporation,B,Plants use sunlight to make food.,medium,15,107,1
+108,7,3,mcq,Which is needed by all living things?,Energy,Plastic,Metal,Glass,A,All living things need energy.,medium,15,108,1
+109,7,3,mcq,Which is a characteristic of living things?,They grow,They stay the same,They never reproduce,They do not need water,A,Growth is a key characteristic.,medium,15,109,1
+110,7,3,mcq,Which part of the plant absorbs water?,Leaf,Stem,Root,Flower,C,Roots absorb water.,medium,15,110,1
+111,7,3,mcq,Which is NOT a living thing?,Bacteria,Fish,Fungus,Stone,D,Stones are non-living.,medium,15,111,1
+112,7,3,mcq,Animals that eat plants only are called:,Carnivores,Omnivores,Herbivores,Decomposers,C,Herbivores eat plants.,medium,15,112,1
+113,7,3,mcq,What gas do humans breathe in?,Carbon dioxide,Oxygen,Nitrogen,Hydrogen,B,Oxygen is needed for respiration.,medium,15,113,1
+114,7,3,mcq,Which organ pumps blood in the human body?,Lungs,Brain,Heart,Stomach,C,The heart pumps blood.,medium,15,114,1
+115,7,3,mcq,Which is a sense organ?,Skin,Bone,Muscle,Blood,A,Skin is used for touch.,medium,15,115,1
+116,8,3,mcq,Which is a living thing?,Rock,Tree,Chair,Water,B,Plants are living things.,medium,15,116,1
+117,8,3,mcq,Which process allows plants to make food?,Respiration,Photosynthesis,Digestion,Evaporation,B,Plants use sunlight to make food.,medium,15,117,1
+118,8,3,mcq,Which is needed by all living things?,Energy,Plastic,Metal,Glass,A,All living things need energy.,medium,15,118,1
+119,8,3,mcq,Which is a characteristic of living things?,They grow,They stay the same,They never reproduce,They do not need water,A,Growth is a key characteristic.,medium,15,119,1
+120,8,3,mcq,Which part of the plant absorbs water?,Leaf,Stem,Root,Flower,C,Roots absorb water.,medium,15,120,1
+121,8,3,mcq,Which is NOT a living thing?,Bacteria,Fish,Fungus,Stone,D,Stones are non-living.,medium,15,121,1
+122,8,3,mcq,Animals that eat plants only are called:,Carnivores,Omnivores,Herbivores,Decomposers,C,Herbivores eat plants.,medium,15,122,1
+123,8,3,mcq,What gas do humans breathe in?,Carbon dioxide,Oxygen,Nitrogen,Hydrogen,B,Oxygen is needed for respiration.,medium,15,123,1
+124,8,3,mcq,Which organ pumps blood in the human body?,Lungs,Brain,Heart,Stomach,C,The heart pumps blood.,medium,15,124,1
+125,8,3,mcq,Which is a sense organ?,Skin,Bone,Muscle,Blood,A,Skin is used for touch.,medium,15,125,1
+126,9,3,mcq,Which is a living thing?,Rock,Tree,Chair,Water,B,Plants are living things.,medium,15,126,1
+127,9,3,mcq,Which process allows plants to make food?,Respiration,Photosynthesis,Digestion,Evaporation,B,Plants use sunlight to make food.,medium,15,127,1
+128,9,3,mcq,Which is needed by all living things?,Energy,Plastic,Metal,Glass,A,All living things need energy.,medium,15,128,1
+129,9,3,mcq,Which is a characteristic of living things?,They grow,They stay the same,They never reproduce,They do not need water,A,Growth is a key characteristic.,medium,15,129,1
+130,9,3,mcq,Which part of the plant absorbs water?,Leaf,Stem,Root,Flower,C,Roots absorb water.,medium,15,130,1
+131,9,3,mcq,Which is NOT a living thing?,Bacteria,Fish,Fungus,Stone,D,Stones are non-living.,medium,15,131,1
+132,9,3,mcq,Animals that eat plants only are called:,Carnivores,Omnivores,Herbivores,Decomposers,C,Herbivores eat plants.,medium,15,132,1
+133,9,3,mcq,What gas do humans breathe in?,Carbon dioxide,Oxygen,Nitrogen,Hydrogen,B,Oxygen is needed for respiration.,medium,15,133,1
+134,9,3,mcq,Which organ pumps blood in the human body?,Lungs,Brain,Heart,Stomach,C,The heart pumps blood.,medium,15,134,1
+135,9,3,mcq,Which is a sense organ?,Skin,Bone,Muscle,Blood,A,Skin is used for touch.,medium,15,135,1

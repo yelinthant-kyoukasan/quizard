@@ -39,6 +39,11 @@ const lessonSchema = new mongoose.Schema(
             default: 50
         },
 
+        questionCount: {
+            type: Number,
+            default: 50
+        },
+
         estimatedMinutes: {
             type: Number,
             default: 10
