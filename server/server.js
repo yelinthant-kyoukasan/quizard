@@ -28,7 +28,9 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173",
+        "https://quizard-1e7bf.web.app/"
+    ],
     credentials: true
 }));
 
