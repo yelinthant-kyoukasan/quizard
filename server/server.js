@@ -29,17 +29,25 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     origin: ["http://localhost:5173",
-        "https://quizard-1e7bf.web.app/"
+        "https://quizard-1e7bf.web.app/",
+        "https://quizard-le7bf.firebaseapp.com"
     ],
     credentials: true
 }));
 
 
 app.use(cors({
-    origin: "http://localhost:5173",
-    credentials: true
+    origin: (origin, cb) => {
+        // allow tools like Postman (no origin) + allowed websites
+        if (!origin || allowedOrigins.includes(origin)) return cb(null, true);
+        return cb(new Error("Not allowed by CORS"));
+    },
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true // keep true only if you use cookies; ok even if you don't
 }));
 
+app.options("*", cors());
 app.get("/api/health", (req, res) => {
     res.json({ status: "ok" });
 });
