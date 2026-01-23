@@ -10,7 +10,7 @@ const mongoose = require("mongoose")
 const Question = require("../schema/Question") // adjust if needed
 
 const MONGO_URI =
-    "mongodb+srv://admin:admin@quizard.vdsfia9.mongodb.net/test" // <- put your real DB name here
+    process.env.MONGO_URI_TEST; // <- put your real DB name here
 const BATCH_SIZE = 500
 
 const clean = (v) => String(v ?? "").trim()
