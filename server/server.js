@@ -26,11 +26,25 @@ connectDB();
 app.use(helmet());
 app.use(morgan("dev"));
 
-const corsOptions = {
-    origin: process.env.CORS_ORIGINS,
+const allowedOrigins = (process.env.CORS_ORIGINS || "")
+    .split(",")
+    .map(s => s.trim())
+    .filter(Boolean);
+
+app.use(cors({
+    origin: (origin, cb) => {
+        // allow Postman/no origin
+        if (!origin) return cb(null, true);
+
+        if (allowedOrigins.includes(origin)) return cb(null, true);
+        return cb(null, false);
+    },
     credentials: true,
-};
-app.use(cors(corsOptions));
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"]
+}));
+app.options(/.*/, cors());
+
 app.use(cookieParser());
 app.use(express.json());
 

@@ -18,6 +18,16 @@ export async function apiFetch<T>(
     path: string,
     options: RequestInit = {}
 ): Promise<T> {
+
+    const headers: Record<string, string> = {
+        ...(options.headers as any),
+    };
+
+    // Only set content-type if we actually send JSON body
+    if (options.body && !headers["Content-Type"]) {
+        headers["Content-Type"] = "application/json";
+    }
+
     const res = await fetch(`${API_BASE_URL}${path}`, {
         ...options,
         credentials: "include",
